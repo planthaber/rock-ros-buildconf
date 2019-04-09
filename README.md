@@ -14,3 +14,9 @@
 `aup`
 
 `amake`
+
+#run 
+
+`. /opt/ros/melodic/setup.sh`
+
+`. env.sh`
