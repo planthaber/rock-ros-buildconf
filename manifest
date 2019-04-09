@@ -6,24 +6,19 @@
 package_sets:
    - github: rock-core/package_set
    - github: rock-core/rock-package_set
+#   - github: rock-core/compilerspeedup-package_set
    - github: rock-tutorials/tutorials-package_set
    - github: rock-simulation/simulation-package_set
-   - github: planthaber/rock-ros-package_set
-#   - dfkigit: cave/package_set
 
    # Uncomment to enable the Rock/ROS bridge
    # You will also have to uncomment some lines in the layout below
-   # - gitorious: rock-ros/package_set
+   - github: planthaber/rock-ros-package_set
 
 # Layout. Note that the rock.base and orocos.toolchain sets are
 # imported by other rock sets.
 layout:
    - rock.core
-   #- communication/orogen/on_demand_ports
 
-   # Uncomment to enable the Rock/ROS bridge
-   # You will also have to uncomment some lines in the package_sets above
-   # - rock.ros
    # Uncomment to checkout and build all tutorials  
    # - rock.tutorials    
 
