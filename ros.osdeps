@@ -1,0 +1,3 @@
+
+#needed for inital checkout, master still has the dep
+roslib: ignore
