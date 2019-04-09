@@ -1,0 +1,4 @@
+
+cmake_package "communication/on_demand_ports"
+orogen_package "communication/orogen/on_demand_ports"
+

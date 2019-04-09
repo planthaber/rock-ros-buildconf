@@ -6,3 +6,17 @@
 #   - rtt
 #     branch: test
 #  
+
+version_control:
+  - tools/rtt_transports/ros:
+    github: planthaber/rtt_ros_transport
+    branch: melodic
+
+  - communication/orogen/on_demand_ports:
+    type: git
+    url: https://git.hb.dfki.de/cave/orogen-on_demand_ports.git
+
+  - communication/on_demand_ports:
+    type: git
+    url: https://git.hb.dfki.de/cave/on-demand-ports.git
+
